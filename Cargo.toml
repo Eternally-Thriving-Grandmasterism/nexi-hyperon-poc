@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "integration",
+    "repl",
+]
+resolver = "2"
+
+[workspace.dependencies]
+# Path deps to submodules (adjust if Hyperon crates are renamed)
+hyperon = { path = "deps/hyperon-experimental/lib" }  # Main interpreter crate
+hyperon-atom = { path = "deps/hyperon-experimental/hyperon-atom" }
+# NEXi crates (path-based; many are scaffolds—implement as needed)
+mercy_quanta = { path = "deps/NEXi/mercy_quanta" }
+dilithium_sign = { path = "deps/NEXi/dilithium_sign" }
+# Add more NEXi crates here (e.g., plonk_valence)
