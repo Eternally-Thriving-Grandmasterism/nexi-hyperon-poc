@@ -1,0 +1,11 @@
+[package]
+name = "nexi_das_node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyperon = { workspace = true }
+nexi_integration = { path = "../integration" }
+metta-bus-client = { workspace = true }
+mercy_quanta = { workspace = true }
+dilithium_sign = { workspace = true }  # For PQ signing
