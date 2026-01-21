@@ -1,0 +1,10 @@
+[package]
+name = "nexi_integration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyperon = { workspace = true }
+hyperon-atom = { workspace = true }
+mercy_quanta = { workspace = true }
+dilithium_sign = { workspace = true }  # Optional for PQ examples
