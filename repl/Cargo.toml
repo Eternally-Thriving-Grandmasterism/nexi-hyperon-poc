@@ -1,0 +1,8 @@
+[package]
+name = "nexi_hyperon_repl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyperon = { workspace = true }
+nexi_integration = { path = "../integration" }
